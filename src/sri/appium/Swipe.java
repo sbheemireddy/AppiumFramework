@@ -27,7 +27,7 @@ public class Swipe {
 		WebElement second = driver.findElementByXPath("//*[@content-desc='45']");
 		t.longPress(longPressOptions().withElement(element(first)).withDuration(ofSeconds(2))).moveTo(element(second)).release().perform();
 		
-		
+		//sysout
 		
 		
 	}
